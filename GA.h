@@ -39,7 +39,7 @@ public:
     int getCurrItemsNum() { return currentItemsNum; }
     int getCurrKnapSize() { return currenyKnapSize; }
     int getTestNum() { return testCases; }
-    void openFile() { file.open("Tests.txt"); }
+    void openFile() { file.open("knapsack_input.txt"); }
 
 };
 
